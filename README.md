@@ -1,14 +1,8 @@
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/45350572/138070856-731c849a-466b-41a2-b39d-c5b5e76e94fa.png' alt='Vitailse - Opinionated Vite Starter Template with TailwindCSS' width='300'/>
-</p>
-
-Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) 
-
-Inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
+## Votion - a notion replica with Vue3 
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [yarn](https://yarn.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
 
@@ -71,7 +65,7 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
 ### Dev tools
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
+- [yarn](https://https://yarnpkg.com/) - package manager
 - [`vite-ssg`](https://github.com/antfu/vite-ssg) - Server-side generation
   - [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
 - [VS Code Extensions](./.vscode/extensions.json)
@@ -92,7 +86,7 @@ If you prefer to do it manually with the cleaner git history
 ```bash
 npx degit zynth17/vitailse my-vitailse-app
 cd my-vitailse-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+yarn i # If you don't have yarn installed, run: npm install -g yarn
 ```
 
 ## Checklist
@@ -115,7 +109,7 @@ And, enjoy :)
 Just run and visit http://localhost:3000
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 ### Preview in Https
@@ -123,7 +117,7 @@ pnpm dev
 Just run and visit https://localhost
 
 ```bash
-pnpm build && pnpm run https-preview
+yarn build && yarn run https-preview
 ```
 
 ### Build
@@ -131,7 +125,7 @@ pnpm build && pnpm run https-preview
 To build the App, run
 
 ```bash
-pnpm build
+yarn build
 ```
 
 And you will see the generated file in `dist` that ready to be served.
