@@ -6,6 +6,7 @@
 	const preferedDark = usePreferredDark();
 	const isDark = useStorage('isDark', preferedDark.value);
 	const body = ref<HTMLBodyElement | null>(null);
+	const { t } = useI18n()
 
 	const toggleDarkMode = () => {
 		if (body.value) {
@@ -46,7 +47,19 @@
 			"
 		>
 			<router-link :to="{ name: 'home' }">
-				<div class="font-bold lg:text-xl md:text-lg text-md">Vitailse</div>
+				<div class="font-bold lg:text-xl md:text-lg text-md">Votion</div>
+			</router-link>
+			<router-link
+				:to="{ name: 'other-page' }"
+				class="
+				mt-5
+				text-center
+				hover:text-gray-200
+				dark:hover:text-gray-500
+				hover:underline
+			"
+			>
+				{{ t('pages.other.menu') }}
 			</router-link>
 			<div class="ml-auto flex items-center h-full">
 				<select
@@ -69,7 +82,7 @@
 					<icon:bx:bx-moon class="w-6 h-6" v-if="!isDark" />
 					<icon:bx:bxs-moon class="w-6 h-6" v-else />
 				</button>
-				<a href="https://github.com/zynth17/vitailse">
+				<a href="https://github.com/ctwhome/votion">
 					<icon-akar-icons:github-fill />
 				</a>
 			</div>

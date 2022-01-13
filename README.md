@@ -1,4 +1,5 @@
 ## Votion - a notion replica with Vue3 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4be74dda-4bbd-47d6-a27f-3e0bffb52538/deploy-status)](https://app.netlify.com/sites/votion/deploys)
 
 ## Features
 
