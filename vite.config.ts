@@ -99,12 +99,12 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head'],
+    include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head', '@editorjs/editorjs'],
     exclude: ['vue-demi'],
   },
   // @ts-ignore
-  ssgOptions: {
-    script: 'async',
-    formatting: 'minify',
-  },
+  // ssgOptions: {
+  //   script: 'async',
+  //   formatting: 'minify',
+  // },
 })

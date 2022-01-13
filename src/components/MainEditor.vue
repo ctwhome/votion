@@ -1,8 +1,5 @@
 <template>
   <div class="demo">
-    <h1 style="text-align: center;">
-      DEMO
-    </h1>
     <editor
       ref="editor"
       :config="config"

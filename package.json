@@ -8,10 +8,9 @@
 		"url": "git+https://github.com/zynth17/vitailse.git"
 	},
 	"keywords": [
-		"vitailse",
+		"ctwhome",
 		"tailwindcss",
-		"vite",
-		"vitesse"
+		"vite"
 	],
 	"author": "Christopher Reeeve",
 	"license": "MIT",
@@ -21,7 +20,8 @@
 	"homepage": "https://github.com/zynth17/vitailse#readme",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite-ssg build",
+		"build": "vite build ",
+		"build-ssg": "vite-ssg build --target=es2020",
 		"serve": "vite preview",
 		"https-preview": "serve dist"
 	},
